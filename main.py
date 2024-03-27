@@ -1,3 +1,4 @@
+import player_class.py as pc
 game_title = "Adventurer Life"
 game_type = "RPG"
 
@@ -14,4 +15,9 @@ print(f"Hello {player_name} \n")
 are_you_ready = (input("Are you ready ? (y/n) \n"))
 while are_you_ready != "y" :
     are_you_ready = (input("and now?\n"))
-print("Let's go!")
+print("Let's start by choosing your class")
+
+if player_class == 0 :
+    print("You have 12 choices")
+    print("you want to play which type of classe?")
+    print(pc.player_archane_list)

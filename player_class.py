@@ -1,0 +1,6 @@
+player_archane_list = [
+    "FIGHTER ARCHETYPES",
+    "ROGUE ARCHETYPES",
+    "RANGER ARCHETYPES",
+    "BARBARIAN ARCHETYPES"
+]
